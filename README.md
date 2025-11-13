@@ -6,13 +6,13 @@
 
 ---
 
-## 🧩 Resumo do Projeto
+## Resumo do Projeto
 Este projeto implementa uma **simulação off-chain** do ataque 51%, fenômeno em que um agente que controla a maioria do poder de mineração pode causar reorganizações (*reorgs*) e *double-spends*.  
 A aplicação é **didática** e foi desenvolvida em **Python**, permitindo visualizar o comportamento das cadeias e estimar probabilidades de sucesso do atacante.
 
 ---
 
-## 💡 Motivação e Justificativa
+## Motivação e Justificativa
 A segurança de blockchains depende da suposição de que a maioria dos mineradores é honesta.  
 O objetivo aqui é **mostrar intuitivamente o que acontece quando essa suposição é violada**, permitindo entender o impacto de um ataque 51% de forma prática.  
 
@@ -21,7 +21,7 @@ O modelo Python é reprodutível, rápido de executar e foca na dinâmica do con
 
 ---
 
-## ⚙️ Como executar
+## Como executar
 - **Execução de amostra (plot):**  
   `python src/simulate_attack51.py --mode sample --p 0.55 --steps 300`
 
@@ -32,7 +32,7 @@ Os resultados são salvos em `sample_evolution.png` e `batch_results.csv`.
 
 ---
 
-## 🧠 Justificativas (requeridas pelo Projeto II)
+## Justificativas (requeridas pelo Projeto II)
 - **Por que usar blockchain?** O projeto é pedagógico: demonstra a consequência do controle majoritário na segurança de blockchains PoW.  
 - **Plataforma escolhida:** Simulação off-chain em Python, evitando complexidades de contrato inteligente e priorizando clareza conceitual.  
 - **Aplicações similares:**  
@@ -42,14 +42,14 @@ Os resultados são salvos em `sample_evolution.png` e `batch_results.csv`.
 
 ---
 
-## 📈 Resultados
+## Resultados
 - O gráfico `sample_evolution.png` mostra a evolução das cadeias (honesta e atacante).  
 - A simulação mostra *reorgs* visíveis quando o atacante revela sua cadeia privada.  
 - Os resultados em `batch_results.csv` indicam como a probabilidade de sucesso aumenta quando `p > 0.5`.
 
 ---
 
-## 🚫 Limitações
+## Limitações
 - Modelo simplificado (sem latência de rede, taxas ou pools).  
 - Focado na intuição, não em precisão econômica.  
 
@@ -83,6 +83,6 @@ Distribuído sob a licença MIT.
 ---
 
 ## 🎥 Informações de Entrega
-- **GitHub:** [inserir link]  
-- **Vídeo:** [inserir link]  
-- **Autoavaliação:** 9.0 / 10  
+- **GitHub:** https://github.com/BrunoKazuya/Blockchain-e-criptomoedas---ataque-51-.git
+- **Vídeo:** https://youtu.be/x0Jwx-ioepc
+- **Autoavaliação:** 10 / 10  
