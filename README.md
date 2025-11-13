@@ -55,7 +55,7 @@ Os resultados são salvos em `sample_evolution.png` e `batch_results.csv`.
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 ```
 src/
   simulate_attack51.py
@@ -70,19 +70,19 @@ batch_results.csv
 
 ---
 
-## 📦 Entregáveis
+## Entregáveis
 - Código no GitHub (com LICENSE).  
 - Slides + link do vídeo gravado (submeter no Moodle).  
 - Contagem de linhas (`LOC.txt`).  
 
 ---
 
-## 📜 Licença
+## Licença
 Distribuído sob a licença MIT.
 
 ---
 
-## 🎥 Informações de Entrega
+## Informações de Entrega
 - **GitHub:** https://github.com/BrunoKazuya/Blockchain-e-criptomoedas---ataque-51-.git
 - **Vídeo:** https://youtu.be/x0Jwx-ioepc
 - **Autoavaliação:** 10 / 10  
